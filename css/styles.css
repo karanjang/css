@@ -1,0 +1,23 @@
+/*Global styles
+***************/
+
+
+a{
+    color: #ef233c;
+}
+a:hover{
+    text-decoration: none;
+}
+header,footer{
+    background-color: #2b2d42;
+    color: #8d99ae
+}
+header h1,header h2{
+    color: #edf2f4;
+}
+.work{
+    background-color: #edf2f4;
+}
+.education{
+    background-color: #8d99ae;
+}
