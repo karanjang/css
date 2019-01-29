@@ -1,11 +1,30 @@
 /*Global styles
 ***************/
-
+html{
+    box-sizing: border-box;
+}
+*,*:before,*:after{
+    box-sizing: inherit;
+}
 body{
     font-family: 'Open Sans', sans-serif;
+    margin:0;
+    padding:0;
+}
+.profile-img{
+    width:300px;
+    border-radius: 50%;
 }
 h1,h2,h3{
     font-family: 'Caveat Brush', cursive;
+    font-weight: 400;
+}
+h1{
+    font-size: 80px;
+}
+h2{
+    margin-top:0;
+    font-size: 40px;
 }
 header{
     padding: 50px;
@@ -16,12 +35,30 @@ a{
 a:hover{
     text-decoration: none;
 }
+.content-wrap{
+    max-width: 950px;
+    margin:0 auto;
+    padding: 50px;
+    
+}
 header,footer{
     background-color: #2b2d42;
-    color: #8d99ae
+    color: #8d99ae;
+}
+footer{
+    text-align: center;
+}
+.contact-info a{
+    padding:10px;
+    display:inline-block;
+    
+}
+header{
+    text-align: center;
 }
 header h1,header h2{
     color: #edf2f4;
+    margin:0;
 }
 .work{
     background-color: #edf2f4;
